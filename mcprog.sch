@@ -2120,24 +2120,6 @@ Distributor Buerklin, 11G810</description>
 <wire x1="200.66" y1="66.04" x2="200.66" y2="63.5" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="U$1" gate="A" pin="4"/>
-<wire x1="193.04" y1="50.8" x2="198.12" y2="50.8" width="0.1524" layer="91"/>
-<wire x1="198.12" y1="50.8" x2="198.12" y2="48.26" width="0.1524" layer="91"/>
-<pinref part="U$1" gate="A" pin="10"/>
-<wire x1="198.12" y1="48.26" x2="198.12" y2="45.72" width="0.1524" layer="91"/>
-<wire x1="198.12" y1="45.72" x2="198.12" y2="43.18" width="0.1524" layer="91"/>
-<wire x1="198.12" y1="43.18" x2="193.04" y2="43.18" width="0.1524" layer="91"/>
-<pinref part="U$1" gate="A" pin="8"/>
-<wire x1="193.04" y1="45.72" x2="198.12" y2="45.72" width="0.1524" layer="91"/>
-<junction x="198.12" y="45.72"/>
-<pinref part="U$1" gate="A" pin="6"/>
-<wire x1="193.04" y1="48.26" x2="198.12" y2="48.26" width="0.1524" layer="91"/>
-<junction x="198.12" y="48.26"/>
-<pinref part="U$5" gate="G$1" pin="GND"/>
-<wire x1="198.12" y1="45.72" x2="203.2" y2="45.72" width="0.1524" layer="91"/>
-<wire x1="203.2" y1="45.72" x2="203.2" y2="40.64" width="0.1524" layer="91"/>
-</segment>
-<segment>
 <pinref part="X1" gate="G$1" pin="GND"/>
 <wire x1="33.02" y1="139.7" x2="48.26" y2="139.7" width="0.1524" layer="91"/>
 <pinref part="R20" gate="G$1" pin="2"/>
@@ -2221,6 +2203,12 @@ Distributor Buerklin, 11G810</description>
 <wire x1="58.42" y1="27.94" x2="58.42" y2="17.78" width="0.1524" layer="91"/>
 <wire x1="58.42" y1="17.78" x2="71.12" y2="17.78" width="0.1524" layer="91"/>
 <junction x="71.12" y="17.78"/>
+</segment>
+<segment>
+<pinref part="U$1" gate="A" pin="10"/>
+<pinref part="U$5" gate="G$1" pin="GND"/>
+<wire x1="193.04" y1="43.18" x2="203.2" y2="43.18" width="0.1524" layer="91"/>
+<wire x1="203.2" y1="43.18" x2="203.2" y2="40.64" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="MOSI" class="0">
