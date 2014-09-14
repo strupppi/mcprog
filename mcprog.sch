@@ -1819,7 +1819,7 @@ Distributor Buerklin, 11G810</description>
 <part name="R22" library="bytewerk-passive" deviceset="R" device="0603" value="100R"/>
 <part name="D1" library="bytewerk-passive" deviceset="1N5819HW" device=""/>
 <part name="C5" library="bytewerk-passive" deviceset="C" device="0603" value="470nF/10V"/>
-<part name="R23" library="bytewerk-passive" deviceset="R" device="0603" value="1k"/>
+<part name="R23" library="bytewerk-passive" deviceset="R" device="0603" value="10k"/>
 <part name="IC2" library="bytewerk-vreg" deviceset="MCP1703" device="SOT-89"/>
 <part name="U$13" library="bytewerk-symbol" deviceset="GND" device=""/>
 <part name="U$14" library="bytewerk-symbol" deviceset="+5V" device=""/>
@@ -2570,6 +2570,17 @@ Distributor Buerklin, 11G810</description>
 </nets>
 </sheet>
 </sheets>
+<errors>
+<approved hash="102,1,111.76,114.3,VCC,+3V3,,,,"/>
+<approved hash="104,1,91.44,114.3,IC2,VIN,+5V,,,"/>
+<approved hash="113,1,130.071,89.431,FRAME1,,,,,"/>
+<approved hash="113,1,251.494,60.96,LED2,,,,,"/>
+<approved hash="113,1,213.394,137.16,LED3,,,,,"/>
+<approved hash="113,1,198.154,124.46,LED4,,,,,"/>
+<approved hash="113,1,195.614,124.46,LED5,,,,,"/>
+<approved hash="113,1,101.6,77.0805,S1,,,,,"/>
+<approved hash="113,1,72.5389,40.64,Q3,,,,,"/>
+</errors>
 </schematic>
 </drawing>
 </eagle>
