@@ -130,6 +130,12 @@ V_TARGET</text>
 <text x="30.4" y="28.4" size="1" layer="29" font="vector" ratio="16" rot="R90">V_TARGET</text>
 <text x="2.6" y="3" size="1" layer="29" font="vector" ratio="16" rot="R315" align="bottom-center">v1.0</text>
 <text x="2.6" y="3" size="1" layer="1" font="vector" ratio="16" rot="R315" align="bottom-center">v1.0</text>
+<text x="5.2" y="5.2" size="1" layer="16" font="vector" ratio="16" rot="SR315" align="bottom-center">www.bytewerk.org</text>
+<text x="5.2" y="5.2" size="1" layer="30" font="vector" ratio="16" rot="SR315" align="bottom-center">www.bytewerk.org</text>
+<text x="3.8" y="4.2" size="1.5" layer="16" font="vector" ratio="16" rot="SR315" align="bottom-center">mcprog</text>
+<text x="3.8" y="4.2" size="1.5" layer="30" font="vector" ratio="16" rot="SR315" align="bottom-center">mcprog</text>
+<text x="2.6" y="3" size="1" layer="16" font="vector" ratio="16" rot="R315" align="bottom-center">v1.0</text>
+<text x="2.6" y="3" size="1" layer="30" font="vector" ratio="16" rot="R315" align="bottom-center">v1.0</text>
 </plain>
 <libraries>
 <library name="bytewerk-con">
