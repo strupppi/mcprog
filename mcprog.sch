@@ -748,171 +748,6 @@ Source: 008-0260-0_E.pdf</description>
 </deviceset>
 </devicesets>
 </library>
-<library name="bytewerk-logo">
-<description>&lt;b&gt;Creative Commons 3.0 CC-BY-SA&lt;/b&gt;</description>
-<packages>
-<package name="BYTEWERK-LOGO">
-<wire x1="0.6" y1="-0.2" x2="0.75" y2="-0.75" width="0.05" layer="1"/>
-<wire x1="0.2" y1="-0.6" x2="0.75" y2="-0.75" width="0.05" layer="1"/>
-<wire x1="0.75" y1="-0.75" x2="0.35" y2="-0.35" width="0.05" layer="1"/>
-<circle x="0.75" y="-0.75" radius="0.08" width="0" layer="1"/>
-<polygon width="0" layer="1">
-<vertex x="1.2" y="0.8"/>
-<vertex x="0.8" y="1.2"/>
-<vertex x="0.18" y="0.58"/>
-<vertex x="0.33" y="0.43"/>
-<vertex x="0.2" y="0.3"/>
-<vertex x="-0.1" y="0.6"/>
-<vertex x="-0.6" y="0.1"/>
-<vertex x="-0.3" y="-0.2"/>
-<vertex x="-0.43" y="-0.33"/>
-<vertex x="-0.58" y="-0.18"/>
-<vertex x="-1.2" y="-0.8"/>
-<vertex x="-0.8" y="-1.2"/>
-<vertex x="-0.18" y="-0.58"/>
-<vertex x="-0.33" y="-0.43"/>
-<vertex x="-0.2" y="-0.3"/>
-<vertex x="-0.1" y="-0.4"/>
-<vertex x="0.4" y="0.1"/>
-<vertex x="0.3" y="0.2"/>
-<vertex x="0.43" y="0.33"/>
-<vertex x="0.58" y="0.18"/>
-</polygon>
-<polygon width="0" layer="1">
-<vertex x="-0.1" y="0.6"/>
-<vertex x="-0.17" y="0.62"/>
-<vertex x="-0.23" y="0.63"/>
-<vertex x="-0.32" y="0.62"/>
-<vertex x="-0.38" y="0.6"/>
-<vertex x="-0.43" y="0.57"/>
-<vertex x="-0.49" y="0.53"/>
-<vertex x="-0.55" y="0.47"/>
-<vertex x="-0.59" y="0.4"/>
-<vertex x="-0.61" y="0.34"/>
-<vertex x="-0.62" y="0.27"/>
-<vertex x="-0.62" y="0.21"/>
-<vertex x="-0.61" y="0.14"/>
-<vertex x="-0.6" y="0.1"/>
-</polygon>
-<polygon width="0" layer="1">
-<vertex x="0.4" y="0.1"/>
-<vertex x="0.45" y="0.13"/>
-<vertex x="0.49" y="0.15"/>
-<vertex x="0.59" y="0.15"/>
-<vertex x="0.64" y="0.14"/>
-<vertex x="0.72" y="0.09"/>
-<vertex x="0.76" y="0.05"/>
-<vertex x="0.8" y="-0.05"/>
-<vertex x="0.8" y="-0.11"/>
-<vertex x="0.79" y="-0.22"/>
-<vertex x="0.74" y="-0.38"/>
-<vertex x="0.68" y="-0.49"/>
-<vertex x="0.6" y="-0.59"/>
-<vertex x="0.51" y="-0.67"/>
-<vertex x="0.39" y="-0.74"/>
-<vertex x="0.32" y="-0.77"/>
-<vertex x="0.25" y="-0.79"/>
-<vertex x="0.16" y="-0.8"/>
-<vertex x="0.08" y="-0.8"/>
-<vertex x="-0.01" y="-0.78"/>
-<vertex x="-0.08" y="-0.73"/>
-<vertex x="-0.1" y="-0.7"/>
-<vertex x="-0.13" y="-0.64"/>
-<vertex x="-0.14" y="-0.56"/>
-<vertex x="-0.13" y="-0.47"/>
-<vertex x="-0.1" y="-0.4"/>
-</polygon>
-</package>
-</packages>
-<symbols>
-<symbol name="BWLOGO">
-<wire x1="6.35" y1="2.0066" x2="6.3754" y2="2.032" width="0.254" layer="97" curve="-90"/>
-<wire x1="6.3754" y1="0.9652" x2="7.3152" y2="2.0066" width="0.254" layer="97" curve="115.238645" cap="flat"/>
-<wire x1="5.969" y1="0.0254" x2="8.382" y2="2.4638" width="0.254" layer="97" curve="97.62815" cap="flat"/>
-<wire x1="3.4036" y1="5.3086" x2="4.8768" y2="3.7338" width="2.286" layer="97"/>
-<wire x1="4.8768" y1="3.7338" x2="3.4544" y2="5.3848" width="2.286" layer="97"/>
-<wire x1="3.4544" y1="5.3848" x2="3.0988" y2="5.0292" width="2.286" layer="97"/>
-<wire x1="3.0988" y1="5.0292" x2="4.8768" y2="3.4798" width="2.286" layer="97"/>
-<wire x1="5.207" y1="3.2258" x2="5.9436" y2="4.1148" width="1.524" layer="97"/>
-<wire x1="5.842" y1="4.0386" x2="4.318" y2="2.4892" width="1.524" layer="97"/>
-<wire x1="5.588" y1="2.8448" x2="4.3688" y2="2.1082" width="0.762" layer="97"/>
-<wire x1="5.6134" y1="2.8448" x2="6.3246" y2="4.0386" width="0.762" layer="97"/>
-<wire x1="6.2484" y1="3.4798" x2="6.477" y2="1.8034" width="0.254" layer="97"/>
-<wire x1="4.6736" y1="2.2352" x2="6.5786" y2="1.9304" width="0.254" layer="97"/>
-<wire x1="6.5024" y1="1.8796" x2="5.4864" y2="2.921" width="0.254" layer="97"/>
-<wire x1="6.35" y1="1.905" x2="6.35" y2="2.0066" width="0.254" layer="97"/>
-<wire x1="6.35" y1="2.0066" x2="6.3754" y2="2.032" width="0.254" layer="97" curve="-90"/>
-<wire x1="4.2926" y1="5.0546" x2="4.5974" y2="5.1308" width="0.508" layer="97"/>
-<wire x1="4.5974" y1="5.1308" x2="4.5974" y2="5.1054" width="0.508" layer="97"/>
-<wire x1="4.5974" y1="5.1054" x2="4.572" y2="5.0546" width="0.508" layer="97"/>
-<wire x1="4.572" y1="5.0546" x2="4.6736" y2="5.0546" width="0.381" layer="97"/>
-<wire x1="4.6736" y1="5.0546" x2="5.5118" y2="5.8928" width="0.381" layer="97"/>
-<wire x1="5.5118" y1="5.8928" x2="4.191" y2="4.6482" width="0.381" layer="97"/>
-<wire x1="4.191" y1="4.6482" x2="4.4196" y2="5.0546" width="0.381" layer="97"/>
-<wire x1="4.4196" y1="5.0546" x2="4.4704" y2="5.1054" width="0.381" layer="97"/>
-<wire x1="4.4704" y1="5.1054" x2="4.4958" y2="5.08" width="0.381" layer="97"/>
-<wire x1="4.4958" y1="5.08" x2="4.5974" y2="5.1054" width="0.381" layer="97"/>
-<wire x1="4.5974" y1="5.1054" x2="5.6642" y2="6.1214" width="0.381" layer="97"/>
-<wire x1="5.6642" y1="6.1214" x2="5.4356" y2="5.6896" width="0.381" layer="97"/>
-<wire x1="5.4356" y1="5.6896" x2="5.2832" y2="5.715" width="0.381" layer="97"/>
-<wire x1="5.2832" y1="5.715" x2="5.8166" y2="5.1816" width="0.381" layer="97"/>
-<wire x1="5.8166" y1="5.1816" x2="7.7724" y2="7.1374" width="0.381" layer="97"/>
-<wire x1="7.7724" y1="7.1374" x2="6.731" y2="8.1788" width="0.381" layer="97"/>
-<wire x1="6.731" y1="8.1788" x2="4.7244" y2="6.2738" width="0.381" layer="97"/>
-<wire x1="4.7244" y1="6.2738" x2="5.6896" y2="5.334" width="0.381" layer="97"/>
-<wire x1="5.6896" y1="5.334" x2="7.4676" y2="7.0866" width="0.381" layer="97"/>
-<wire x1="7.4676" y1="7.0866" x2="6.7056" y2="7.7724" width="0.381" layer="97"/>
-<wire x1="6.7056" y1="7.7724" x2="5.1562" y2="6.2992" width="0.381" layer="97"/>
-<wire x1="5.1562" y1="6.2992" x2="5.7404" y2="5.588" width="0.381" layer="97"/>
-<wire x1="5.7404" y1="5.588" x2="7.0612" y2="7.1882" width="0.381" layer="97"/>
-<wire x1="7.0612" y1="7.1882" x2="6.6294" y2="7.5184" width="0.381" layer="97"/>
-<wire x1="6.6294" y1="7.5184" x2="5.5118" y2="6.2484" width="0.381" layer="97"/>
-<wire x1="5.5118" y1="6.2484" x2="5.7404" y2="5.9944" width="0.381" layer="97"/>
-<wire x1="5.7404" y1="5.9944" x2="6.6548" y2="7.2136" width="0.381" layer="97"/>
-<wire x1="3.3782" y1="3.9624" x2="2.5654" y2="3.175" width="0.381" layer="97"/>
-<wire x1="2.5654" y1="3.175" x2="2.159" y2="2.667" width="0.381" layer="97"/>
-<wire x1="3.429" y1="3.9116" x2="2.2098" y2="2.667" width="0.381" layer="97"/>
-<wire x1="2.2098" y1="2.667" x2="2.6162" y2="3.1496" width="0.381" layer="97"/>
-<wire x1="2.6162" y1="3.1496" x2="2.667" y2="3.2004" width="0.381" layer="97"/>
-<wire x1="2.667" y1="3.2004" x2="2.8702" y2="2.9972" width="0.381" layer="97"/>
-<wire x1="2.8702" y1="2.9972" x2="3.2004" y2="2.667" width="0.381" layer="97"/>
-<wire x1="3.2004" y1="2.667" x2="1.27" y2="0.7366" width="0.381" layer="97"/>
-<wire x1="1.27" y1="0.7366" x2="0.1524" y2="1.8542" width="0.381" layer="97"/>
-<wire x1="0.1524" y1="1.8542" x2="2.0828" y2="3.7846" width="0.381" layer="97"/>
-<wire x1="2.0828" y1="3.7846" x2="2.667" y2="3.2004" width="0.381" layer="97"/>
-<wire x1="2.8702" y1="2.9972" x2="2.6924" y2="2.3114" width="0.381" layer="97"/>
-<wire x1="2.6924" y1="2.3114" x2="1.143" y2="1.0668" width="0.381" layer="97"/>
-<wire x1="1.143" y1="1.0668" x2="0.5334" y2="1.8288" width="0.381" layer="97"/>
-<wire x1="0.5334" y1="1.8288" x2="2.0574" y2="3.4798" width="0.381" layer="97"/>
-<wire x1="2.0574" y1="3.4798" x2="2.5908" y2="2.7686" width="0.381" layer="97"/>
-<wire x1="2.5908" y1="2.7686" x2="1.651" y2="1.8034" width="0.381" layer="97"/>
-<wire x1="1.651" y1="1.8034" x2="0.9652" y2="1.397" width="0.381" layer="97"/>
-<wire x1="0.9652" y1="1.397" x2="0.889" y2="1.8542" width="0.381" layer="97"/>
-<wire x1="0.889" y1="1.8542" x2="2.1336" y2="3.048" width="0.381" layer="97"/>
-<wire x1="2.1336" y1="3.048" x2="1.905" y2="2.286" width="0.381" layer="97"/>
-<wire x1="1.905" y1="2.286" x2="1.016" y2="1.6764" width="0.381" layer="97"/>
-<wire x1="6.3754" y1="0.9652" x2="7.3152" y2="2.0066" width="0.254" layer="97" curve="115.238645" cap="flat"/>
-<wire x1="5.969" y1="0.0254" x2="8.382" y2="2.4638" width="0.254" layer="97" curve="97.62815" cap="flat"/>
-<circle x="6.4516" y="1.9558" radius="0.1703" width="0.254" layer="97"/>
-</symbol>
-</symbols>
-<devicesets>
-<deviceset name="BWLOGO" prefix="LOGO" uservalue="yes">
-<description>&lt;b&gt;Bytewerk Logo&lt;/b&gt;&lt;p&gt;
-- rough match to the real logo&lt;br /&gt;</description>
-<gates>
-<gate name="G$1" symbol="BWLOGO" x="-3.81" y="-4.064"/>
-</gates>
-<devices>
-<device name="" package="BYTEWERK-LOGO">
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
-</devicesets>
-</library>
 <library name="bytewerk-passive">
 <packages>
 <package name="C0402">
@@ -1952,7 +1787,6 @@ Distributor Buerklin, 11G810</description>
 <part name="X2" library="bytewerk-crystal" deviceset="CRYSTAL" device="HC49UP" value="12MHz"/>
 <part name="LED2" library="bytewerk-led" deviceset="LED0603" device=""/>
 <part name="LED3" library="bytewerk-led" deviceset="LED0603" device=""/>
-<part name="LOGO1" library="bytewerk-logo" deviceset="BWLOGO" device=""/>
 <part name="C1" library="bytewerk-passive" deviceset="C" device="0603" value="100nF/10V"/>
 <part name="C2" library="bytewerk-passive" deviceset="C" device="1206" value="22uF/10V"/>
 <part name="R1" library="bytewerk-passive" deviceset="R" device="0603" value="100R"/>
@@ -2032,7 +1866,6 @@ Distributor Buerklin, 11G810</description>
 <instance part="X2" gate="G$1" x="119.38" y="147.32" rot="R270"/>
 <instance part="LED2" gate="G$1" x="251.46" y="60.96" rot="R270"/>
 <instance part="LED3" gate="G$1" x="213.36" y="137.16" rot="R270"/>
-<instance part="LOGO1" gate="G$1" x="180.34" y="10.16"/>
 <instance part="C1" gate="G$1" x="73.66" y="86.36" rot="R90"/>
 <instance part="C2" gate="G$1" x="78.74" y="86.36" rot="R90"/>
 <instance part="R1" gate="G$1" x="162.56" y="88.9"/>
