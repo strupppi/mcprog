@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="6.5.0">
+<eagle version="6.6.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -1911,11 +1911,11 @@ Distributor Buerklin, 11G810</description>
 <instance part="C9" gate="G$1" x="119.38" y="109.22" rot="R90"/>
 <instance part="R24" gate="G$1" x="218.44" y="147.32" rot="R270"/>
 <instance part="U$2" gate="G$1" x="73.66" y="73.66"/>
-<instance part="LED4" gate="G$1" x="198.12" y="124.46" rot="R270"/>
-<instance part="R25" gate="G$1" x="198.12" y="134.62" rot="R270"/>
-<instance part="U$3" gate="G$1" x="198.12" y="114.3"/>
-<instance part="R26" gate="G$1" x="195.58" y="134.62" rot="R270"/>
-<instance part="LED5" gate="G$1" x="195.58" y="124.46" rot="R270"/>
+<instance part="LED4" gate="G$1" x="193.04" y="124.46" rot="R270"/>
+<instance part="R25" gate="G$1" x="193.04" y="134.62" rot="R270"/>
+<instance part="U$3" gate="G$1" x="193.04" y="109.22"/>
+<instance part="R26" gate="G$1" x="195.58" y="132.08" rot="R270"/>
+<instance part="LED5" gate="G$1" x="195.58" y="121.92" rot="R270"/>
 <instance part="S1" gate="1" x="101.6" y="76.2" rot="R270"/>
 <instance part="U$4" gate="G$1" x="114.3" y="81.28"/>
 <instance part="U$12" gate="G$1" x="119.38" y="78.74"/>
@@ -2173,12 +2173,12 @@ Distributor Buerklin, 11G810</description>
 <segment>
 <pinref part="U$3" gate="G$1" pin="GND"/>
 <pinref part="LED4" gate="G$1" pin="C"/>
-<wire x1="198.12" y1="116.84" x2="198.12" y2="119.38" width="0.1524" layer="91"/>
+<wire x1="193.04" y1="111.76" x2="193.04" y2="114.3" width="0.1524" layer="91"/>
 <pinref part="LED5" gate="G$1" pin="C"/>
-<wire x1="198.12" y1="119.38" x2="198.12" y2="121.92" width="0.1524" layer="91"/>
-<wire x1="195.58" y1="121.92" x2="195.58" y2="119.38" width="0.1524" layer="91"/>
-<wire x1="195.58" y1="119.38" x2="198.12" y2="119.38" width="0.1524" layer="91"/>
-<junction x="198.12" y="119.38"/>
+<wire x1="193.04" y1="114.3" x2="193.04" y2="121.92" width="0.1524" layer="91"/>
+<wire x1="195.58" y1="119.38" x2="195.58" y2="114.3" width="0.1524" layer="91"/>
+<wire x1="195.58" y1="114.3" x2="193.04" y2="114.3" width="0.1524" layer="91"/>
+<junction x="193.04" y="114.3"/>
 </segment>
 <segment>
 <pinref part="C5" gate="G$1" pin="1"/>
@@ -2427,28 +2427,21 @@ Distributor Buerklin, 11G810</description>
 <segment>
 <pinref part="R25" gate="G$1" pin="2"/>
 <pinref part="LED4" gate="G$1" pin="A"/>
-<wire x1="198.12" y1="129.54" x2="198.12" y2="127" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$30" class="0">
-<segment>
-<pinref part="R25" gate="G$1" pin="1"/>
-<pinref part="IC1" gate="SPI" pin="GP8"/>
-<wire x1="198.12" y1="139.7" x2="198.12" y2="142.24" width="0.1524" layer="91"/>
+<wire x1="193.04" y1="129.54" x2="193.04" y2="127" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$32" class="0">
 <segment>
 <pinref part="LED5" gate="G$1" pin="A"/>
 <pinref part="R26" gate="G$1" pin="2"/>
-<wire x1="195.58" y1="127" x2="195.58" y2="129.54" width="0.1524" layer="91"/>
+<wire x1="195.58" y1="124.46" x2="195.58" y2="127" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$33" class="0">
 <segment>
 <pinref part="R26" gate="G$1" pin="1"/>
 <pinref part="IC1" gate="SPI" pin="GP7"/>
-<wire x1="195.58" y1="139.7" x2="195.58" y2="142.24" width="0.1524" layer="91"/>
+<wire x1="195.58" y1="137.16" x2="195.58" y2="142.24" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="VUSB" class="0">
@@ -2553,6 +2546,13 @@ Distributor Buerklin, 11G810</description>
 <wire x1="218.44" y1="142.24" x2="218.44" y2="119.38" width="0.1524" layer="91"/>
 <pinref part="R24" gate="G$1" pin="2"/>
 <label x="218.44" y="121.92" size="1.778" layer="95" rot="R90"/>
+</segment>
+</net>
+<net name="N$16" class="0">
+<segment>
+<pinref part="IC1" gate="SPI" pin="GP6"/>
+<pinref part="R25" gate="G$1" pin="1"/>
+<wire x1="193.04" y1="142.24" x2="193.04" y2="139.7" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
